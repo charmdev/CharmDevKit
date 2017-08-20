@@ -3,8 +3,7 @@
 ## 1. Как установить
 
 1) сделать `git clone --recursive https://github.com/charmdev/CharmDevKit`
-2) перейти в директорию, в которою склонировался CharmDevKit и выполнить из консоли `sh setup.sh`
-3) прописать переменные окружения 
+2) прописать переменные окружения 
 ```
 CHARM_DEV_KIT=path_to_charmdevkit_on_your_system
 HAXEPATH=%CHARM_DEV_KIT%/bin/haxe
@@ -12,6 +11,7 @@ NEKO_INSTPATH=%CHARM_DEV_KIT%/bin/neko
 PATH+=%HAXEPATH%
 PATH+=%NEKO_INSTPATH%
 ```
+3) перейти в директорию, в которою склонировался CharmDevKit и выполнить из консоли `sh setup.sh`
 
 ## 2. сборка проекта
 
