@@ -1,3 +1,6 @@
 [submodule "haxelib-dev/openfl/dev"]
 	path = haxelib-dev/openfl/dev
 	url = https://github.com/openfl/openfl.git
+[submodule "haxelib-dev/openfl"]
+	path = haxelib-dev/openfl
+	url = https://github.com/openfl/openfl.git
