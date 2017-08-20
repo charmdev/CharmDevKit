@@ -1,3 +1,5 @@
 .dev
+bin/neko
 bin/haxe
 bin/vscode
+haxelib-root
