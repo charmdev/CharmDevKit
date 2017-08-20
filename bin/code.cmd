@@ -1,1 +1,0 @@
-bin\vscode\bin\code --extensions-dir .\vscode-extensions
