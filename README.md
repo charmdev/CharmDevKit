@@ -5,7 +5,7 @@
 1) установить vscode https://code.visualstudio.com/Download
 2) установить плагины (Ctrl + Shift + X) `Haxe` и `Debugger For Chrome`
 3) сделать `git clone --recursive https://github.com/charmdev/CharmDevKit`
-4) скачать CDK-newrender.zip отсюда https://github.com/charmdev/CharmDevKit/releases и распаковать в `CharmDevKit`
+4) скачать `CDK-newrender.zip` отсюда https://github.com/charmdev/CharmDevKit/releases и распаковать в `CharmDevKit`
 5) прописать переменные окружения 
 ```
 CHARM_DEV_KIT=path_to_charmdevkit_on_your_system
