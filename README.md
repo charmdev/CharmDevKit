@@ -2,7 +2,7 @@
 
 ## 1. Как установить
 
-1) сделать `git clone https://github.com/charmdev/CharmDevKit`
+1) сделать `git clone --recursive https://github.com/charmdev/CharmDevKit`
 2) перейти в директорию, в которою склонировался CharmDevKit и выполнить из консоли `sh setup.sh`
 3) прописать переменные окружения 
 ```
