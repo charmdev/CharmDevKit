@@ -1,6 +1,33 @@
-[submodule "haxelib-dev/openfl/dev"]
-	path = haxelib-dev/openfl/dev
-	url = https://github.com/openfl/openfl.git
 [submodule "haxelib-dev/openfl"]
 	path = haxelib-dev/openfl
 	url = https://github.com/openfl/openfl.git
+[submodule "haxelib-dev/spinehaxe"]
+	path = haxelib-dev/spinehaxe
+	url = https://github.com/charmdev/spinehaxe.git
+[submodule "haxelib-dev/repack"]
+	path = haxelib-dev/repack
+	url = https://github.com/aaulia/repack.git
+[submodule "haxelib-dev/samcodes-notifications"]
+	path = haxelib-dev/samcodes-notifications
+	url = https://github.com/charmdev/samcodes-notifications.git
+[submodule "haxelib-dev/GAnalytics"]
+	path = haxelib-dev/GAnalytics
+	url = https://github.com/charmdev/GAnalytics.git
+[submodule "haxelib-dev/AppsFlyerExtension"]
+	path = haxelib-dev/AppsFlyerExtension
+	url = https://github.com/charmdev/AppsFlyerExtension-OpenFl.git
+[submodule "haxelib-dev/extension-googleplaygames"]
+	path = haxelib-dev/extension-googleplaygames
+	url = https://github.com/charmdev/extension-googleplaygames
+[submodule "haxelib-dev/extension-iap"]
+	path = haxelib-dev/extension-iap
+	url = https://github.com/charmdev/extension-iap
+[submodule "haxelib-dev/extension-nativedialog"]
+	path = haxelib-dev/extension-nativedialog
+	url = https://github.com/charmdev/extension-nativedialog
+[submodule "haxelib-dev/ConnectionManagerExtension"]
+	path = haxelib-dev/ConnectionManagerExtension
+	url = https://github.com/charmdev/ConnectionManagerExtension
+[submodule "haxelib-dev/extension-facebook"]
+	path = haxelib-dev/extension-facebook
+	url = https://github.com/charmdev/extension-facebook.git
