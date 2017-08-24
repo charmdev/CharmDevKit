@@ -31,3 +31,6 @@
 [submodule "haxelib-dev/stablexui"]
 	path = haxelib-dev/stablexui
 	url = https://github.com/charmdev/StablexUI.git
+[submodule "haxelib-dev/openfl"]
+	path = haxelib-dev/openfl
+	url = https://github.com/charmdev/OpenflCustom.git
