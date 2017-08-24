@@ -17,16 +17,16 @@ PATH+=%NEKO_INSTPATH%
 6) перейти в директорию, в которою склонировался CharmDevKit и выполнить из консоли `sh setup.sh`
 
 ## 2. сборка проекта
-
-пример tasks.json:
+в директории ".vscode" сохранить файл tasks.json:
 ```
 {
     "version": "2.0.0",
     "tasks": [
         {
             "taskName": "build",
-            "type": "shell",
-            "command": "haxelib run lime build html5"
+            "type": "haxelib",
+            "command": ["run", "lime", "build", "-Dtest_server", "teamcity_proj.xml", "html5", "-v", "-debug"],
+            "problemMatcher": "$haxe"
         }
     ]
 }
@@ -35,9 +35,8 @@ PATH+=%NEKO_INSTPATH%
 
 ## 3. Отладка html5
 
-1) для генерации source-map в project.xml нужно добавить `<haxeflag name="-debug"/>`
-2) запускаем сервер статики `http-server -c1 ./bin/html5/bin`
-3) прописываем конфиг дебагера .vscode/launch.json
+1) запускаем сервер статики `http-server -c1 ./bin/html5/bin`
+2) в директории ".vscode" сохранить файл launch.json:
 ```
 {
     "version": "0.2.0",
