@@ -1,6 +1,3 @@
-[submodule "haxelib-dev/openfl"]
-	path = haxelib-dev/openfl
-	url = https://github.com/openfl/openfl.git
 [submodule "haxelib-dev/spinehaxe"]
 	path = haxelib-dev/spinehaxe
 	url = https://github.com/charmdev/spinehaxe.git
