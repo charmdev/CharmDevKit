@@ -1,4 +1,3 @@
--lib lime:5.2.1
 -lib hxcpp:3.4.64
 -lib hxnodejs
 -lib mockatoo
@@ -14,3 +13,4 @@
 -lib extension-googleplayservices-basement
 -lib extension-android-support-v4
 -lib inthebox-macros
+-lib stablexui
