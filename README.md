@@ -62,7 +62,7 @@ PATH+=%NEKO_INSTPATH%
 
 ## 4. Настройка codecompletion
 
-1) haxelib run lime display -Dtest_server teamcity_proj.xml html5 > completion.hxml
+1) `haxelib run lime display -Dtest_server teamcity_proj.xml html5 > completion.hxml`
 2) в директории ".vscode" сохранить файл settings.json:
 ```
 {
