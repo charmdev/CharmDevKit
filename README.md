@@ -35,7 +35,7 @@ PATH+=%NEKO_INSTPATH%
 
 ## 3. Отладка html5
 
-1) запускаем сервер статики `http-server -c1 ./bin/html5/bin`
+1) запускаем сервер статики `http-server bin_test\html5\debug\bin\`
 2) в директории ".vscode" сохранить файл launch.json:
 ```
 {
@@ -58,4 +58,17 @@ PATH+=%NEKO_INSTPATH%
     ]
 }
 ```
-4) запускаем дебаггер (F5)
+3) запускаем дебаггер (F5)
+
+## 4. Настройка codecompletion
+
+1) haxelib run lime display -Dtest_server teamcity_proj.xml html5 > completion.hxml
+2) в директории ".vscode" сохранить файл settings.json:
+```
+{
+    "haxe.displayConfigurations": [
+        ["completion.hxml"]
+    ]
+}
+
+```
