@@ -31,3 +31,6 @@
 [submodule "haxelib-dev/extension-facebook"]
 	path = haxelib-dev/extension-facebook
 	url = https://github.com/charmdev/extension-facebook.git
+[submodule "haxelib-dev/stablexui"]
+	path = haxelib-dev/stablexui
+	url = https://github.com/charmdev/StablexUI.git
