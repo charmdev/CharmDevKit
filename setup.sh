@@ -17,5 +17,7 @@ $HAXELIB dev extension-googleplaygames $HAXELIB_DEV/extension-googleplaygames
 $HAXELIB dev extension-facebook $HAXELIB_DEV/extension-facebook
 $HAXELIB dev ConnectionManagerExtension $HAXELIB_DEV/ConnectionManagerExtension
 $HAXELIB dev AppsFlyerExtension $HAXELIB_DEV/AppsFlyerExtension
+$HAXELIB dev stablexui $HAXELIB_DEV/StablexUI
 
- npm install http-server -g
+git submodule update --init --recursive
+npm install http-server -g

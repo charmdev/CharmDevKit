@@ -31,3 +31,9 @@
 [submodule "haxelib-dev/openfl"]
 	path = haxelib-dev/openfl
 	url = https://github.com/charmdev/openfl
+[submodule "haxelib-dev/lime"]
+	path = haxelib-dev/lime
+	url = https://github.com/charmdev/lime.git
+[submodule "haxelib-dev/StablexUI"]
+	path = haxelib-dev/StablexUI
+	url = https://github.com/charmdev/StablexUI.git

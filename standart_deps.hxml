@@ -8,9 +8,7 @@
 -lib actuate
 -lib format
 -lib polygonal-ds
--lib stablexui
 -lib dconsole
 -lib extension-googleplayservices-basement
 -lib extension-android-support-v4
 -lib inthebox-macros
--lib stablexui
